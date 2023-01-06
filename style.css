@@ -200,7 +200,46 @@ form input:first-child{
     border-radius: 5px;
     margin: 30px 15px  15px 0;
 }
-form input:last-child{
-    
-}
 /* footer area style end */
+/* profile style  */
+.profile-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.name-sub-title {
+    font-size: 20px;
+    color: #706a6a;
+    margin: 5px 0 15px 0;
+}
+.name-title {
+    font-size: 25px;
+    font-weight: 30px;
+    text-align: center;
+    color: #110f0f;
+}
+.social-icon{
+   
+}
+.social-icon img{
+    padding: 15px 0;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+}
+.social-icon img:hover{
+    padding-bottom: 10px;
+}
+.profile-first {
+    background-color: #a1c7d3;
+    border-radius: 15px;
+    padding: 25px 15px;
+}
+/* profile style end  */
