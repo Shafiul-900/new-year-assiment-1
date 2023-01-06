@@ -133,11 +133,10 @@ ul li {
 /* my plans style  end */
 /* position style  */
 .position {
-    background: url('images/watch.png');
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('images/watch.png');
     padding: 50px 0 50px 60px;
     margin: 130px 0;
     border-radius: 10px;
-    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
 }
 
 .position-title {
