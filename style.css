@@ -202,10 +202,13 @@ form input:first-child{
 }
 /* footer area style end */
 /* profile style  */
+.profile {
+    margin-top: 130px;
+}
 .profile-col {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
 }
 .profile-img {
@@ -224,9 +227,6 @@ form input:first-child{
     text-align: center;
     color: #110f0f;
 }
-.social-icon{
-   
-}
 .social-icon img{
     padding: 15px 0;
     width: 50px;
@@ -238,8 +238,11 @@ form input:first-child{
     padding-bottom: 10px;
 }
 .profile-first {
-    background-color: #a1c7d3;
+    background-color: #afbbbe;
     border-radius: 15px;
     padding: 25px 15px;
+}
+.profile-btn {
+    padding: 15px 18px;
 }
 /* profile style end  */
