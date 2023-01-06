@@ -91,6 +91,10 @@ ul li {
     list-style-type: none;
     color: #706a6a;
 }
+ul li i{
+    color: #01BAF2;
+    margin-right: 10px;
+}
 
 /* my-failures style end */
 
@@ -173,7 +177,7 @@ ul li {
     margin-bottom: 5px;
 }
 .icon img {
-    margin-right: 20px;
+   margin-right: 10px;
 }
 .icon {
     margin-top: 30px;
