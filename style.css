@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.primary-btn {
+    padding: 20px 26px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    border: none;
+    color: #195381;
+}
+
+.primary-btn:hover {
+    background-color: #01BAF2;
+    color: #ffffff;
+}
+
+/* header style */
+.header-area {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url(images/banner/banner3.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.header-banner {
+    width: 500px;
+    text-align: right;
+    padding-right: 200px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #ffffff;
+}
+
+.banner-sub-title {
+    color: #ffffff;
+    margin: 24px 0 30px 0;
+}
+
+/* header style end   */
+.main-content {
+    margin: 0 180px;
+}
+
+/* my-failures style  */
+.my-failures img {
+    width: 500px;
+    height: 700px;
+}
+
+.my-failures {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 130px 0;
+}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #0e0707;
+    line-height: 47px;
+}
+
+.failures-sub-title {
+    margin: 24px 0 30px 0;
+    color: #706a6a;
+}
+
+ul li {
+    list-style-type: none;
+    color: #706a6a;
+}
+
+/* my-failures style end */
+
+
+/* my plans style  */
+.plans-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #0e0707;
+    line-height: 47px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.my-plans div {
+    text-align: center;
+}
+
+.my-plans {
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+}
+
+.my-plans h3 {
+    margin: 18px 0 16px 0;
+    line-height: 35px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    color: #110f0f;
+}
+
+.my-plans p {
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+}
+
+/* my plans style  end */
+/* position style  */
+.position {
+    background: url('images/watch.png');
+    padding: 50px 0 50px 60px;
+    margin: 130px 0;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+}
+
+.position-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+/* position style end  */
+/* footer area style */
+.footer-area {
+    background-color: #110f0f;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.future P {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+}
+.future-sub-title {
+    margin: 10px 0;
+}
+.email {
+    margin-bottom: 5px;
+}
+.icon img {
+    margin-right: 20px;
+}
+.icon {
+    margin-top: 30px;
+}
+.container {
+    padding: 130px 0;
+    margin: 0 180px;
+    gap: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.future {
+    width: 60%;
+}
+.subscribe {
+    width: 40%;
+}
+form input:first-child{
+    width: 100%;
+    padding: 20px 20px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 15px  15px 0;
+}
+form input:last-child{
+    
+}
+/* footer area style end */
